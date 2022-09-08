@@ -6,8 +6,12 @@
 
 def main():
 
-
-
+    print ("Hello World!")
+    c = "lavender"
+    print ("My favorite color is: " + c)
+    b = int(1082004)
+    print ("My birthday is: " + str(b))
+    
     
     
     
