@@ -5,8 +5,16 @@ def main():
         If they're 18 and older but younger than 21, tell them they can only buy nicotine products in some states
         If they're less than 18, they can only purchase candy cigarettes and sody pops
     '''
-    
-  
+
+    age = int(input("What is your age?"))
+    if (age >= 25):
+        print ("You can buy alcohol products, nicotine products, and rent a car")
+    elif ((age >= 21) and (age<25)):
+        print ("You can buy alcohol and nicotine products, but cannot rent a car")
+    elif ((age>=18) and (age<21)):
+        print("You can only buy nicotine products in some states")
+    else:
+        print ("You can only purchase candy cigarettes and sody pops")
 
   
   
