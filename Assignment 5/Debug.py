@@ -34,11 +34,11 @@ def main():
         if justnum.isnumeric() and justalstr.isalpha():
             print ("Letters and numbers!")
         elif justnum.isnumeric():
-            print ("just numbers")
+            print ("No, just numbers")
         elif justalstr.isalpha():
-            print ("just letters")
+            print ("no, just letters")
         else:
-            print ("weird characters :(")
+            print ("no, weird characters :(")
     else:
         print ("weird characters :(")
         
